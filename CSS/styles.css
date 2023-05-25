@@ -55,6 +55,10 @@ ul li{
     text-shadow: 0 0 3px #9e465c;
 }
 
+.it{
+    color: white;
+}
+
 .background{
-    background-color: skyblue;
+    background-color: #587887;
 }

@@ -34,3 +34,8 @@ body{
 ul li{
     display: inline-block;
 }
+
+.verificar{
+    color: darkblue;
+    font-size: 28px;
+}

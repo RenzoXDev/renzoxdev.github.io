@@ -39,3 +39,14 @@ ul li{
     color: #2b3a66;
     font-size: 38px;
 }
+
+.resaltar{
+    color: skyblue;
+    text-shadow: 0 0 3px #71ceeb, 0 0 8px #71ceeb;
+}
+
+.aviso{
+    color: #9e465c;
+
+    text-shadow: 0 0 3px #9e465c, 0 0 8px #9e465c;
+}

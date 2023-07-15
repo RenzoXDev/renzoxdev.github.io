@@ -4,29 +4,28 @@
     font-size: 40px;
 }
 
+/*Base de la Web*/
+
 body{
 background-color: #587887;
 }
 
 .contenedor{
     text-align: center;
+    display: block;
 }
 
 .link-1{
     text-decoration: none;
     color: #71ceeb;
-    font-size: 25px;
-    margin: 2px;
-    padding-right: 5px;
+    font-size: 27px;
     text-shadow: 0px 0px 3px #71ceeb;
 }
 
 .link-1:hover{
     text-decoration: none;
     color: skyblue;
-    font-size: 25px;
-    margin: 2px;
-    padding-right: 5px;
+    font-size: 27px;
     transition: 1s;
     text-shadow: 0 0 3px #71ceeb, 0 0 8px #71ceeb;
 }
@@ -35,35 +34,31 @@ ul li{
     display: inline-block;
 }
 
-.nuevo-texto{
-    color: #92a4a6;
-    font-size: 38px;
+/*Introduccion*/
+
+
+.Introduccion{
+    color: #ffff;
+    font-size: 28px;
+    padding: 40px;
+}
+
+/*Secciones de videojuegos*/
+
+.Seccion-1{
+    background: darkblue;
+    width: 428px;
+    height: 278px;
+    margin: 55px;
     border: solid;
-    padding: 3px;
-    background-color: #464c54;
-    box-shadow: 3px 3px 5px #34e357;
+    border-color: blue;
+    border-width: 8px;
+    float: left;
 }
 
-.resaltar{
-    color: skyblue;
-    text-shadow: 0 0 3px #71ceeb, 0 0 8px #71ceeb;
-}
-
-.aviso{
-    color: #ed5f5f;
-
-    text-shadow: 0 0 3px #9e465c;
-}
-
-.it{
-    color: white;
-}
-
-.background{
-    background-color: #587887;
-}
-
-.imagendebob{
-    width: 720px;
-    height: 720px;
+.Detalles{
+    padding: 38px;
+    display: block;
+    float: left;
+    font-size: 28px;
 }

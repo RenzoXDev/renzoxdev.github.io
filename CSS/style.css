@@ -1,0 +1,35 @@
+body{
+    background-color: #2d2d2e;
+}
+
+.Contenedor{
+    text-align: center;
+    padding: 30px;
+    background-color: #19191a;
+    background-size: auto;
+    box-shadow: 8px 3px 8px #19191a;
+    position: relative;
+    top: -16px;
+    position: left;
+}
+
+.Menu{
+    display: inline-block;
+    font-size: 35px;
+    padding: 8px;
+}
+
+.Enlace{
+    text-decoration: none;
+    color: #41d7e8;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 5px #41d7e8;
+}
+
+.Enlace:hover{
+    transition-duration: 0.3s;
+    text-decoration: none;
+    color: #41d7e8;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 5px #41d7e8, 1px 1px 8px #41d7e8;
+}
